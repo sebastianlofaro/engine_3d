@@ -1,7 +1,6 @@
-php<?php include "include/header.php" ?>
+<?php include "include/header.php" ?>
   <section class="portfolio">
     <div class="category-wrapper">
-      <h2>Homes Interior</h2>
       <ul class="sample-image thumbnails" >
         <li><a href="homes-interior/home2.php"><div class="" style="background-image: url('img/thumbnail/interior/homes/house2/1.jpg')"></div></a></li>
         <li><a href="homes-interior/home3.php"><div class="" style="background-image: url('img/thumbnail/interior/homes/house3/1.jpg')"></div></a></li>

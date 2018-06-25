@@ -13,8 +13,30 @@
     <a href="index.php"><img id="logo" src="img/logo.png" alt=""></a>
     <div class="nav-background">
       <div class="contact">
-        <a href="mailto:engine3dco@gmail.com">engine3dco@gmail.com</a>
-        <a href="tel:+18324099048">832-409-9048</a>
+        <div class="wrapper">
+          <div class="left side">
+            <a href="mailto:engine3dco@gmail.com">EMAIL</a>
+            <a href="tel:+18324099048">PHONE</a>
+          </div>
+          <div class="right side">
+            <a href="mailto:engine3dco@gmail.com">engine3dco@gmail.com</a>
+            <a href="tel:+18324099048">832-409-9048</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
+  <div class="jumbotron"></div>
+  <div class="section-title">
+    <div class="">
+      <h2>Homes Exterior</h2>
+    </div>
+  </div>
+  <div class="subcategories">
+    <ul>
+      <li><p class="selected">Homes Exterior</p></li>
+      <li><p>Homes Interior</p></li>
+      <li><p>Media Rooms</p></li>
+      <li><p>Commercial</p></li>
+    </ul>
+  </div>
