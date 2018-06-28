@@ -33,10 +33,13 @@
     </div>
   </div>
   <div class="subcategories">
-    <ul>
-      <li><p class="selected">Homes Exterior</p></li>
-      <li><p>Homes Interior</p></li>
-      <li><p>Media Rooms</p></li>
-      <li><p>Commercial</p></li>
+    <ul class="subcategory-list">
+      <li name="0"><a href="?action=selectSubcategory&amp;id=0"><p class="selected">Homes Exterior</p></a></li>
+      <li name="1"><a href="?action=selectSubcategory&amp;id=1"><p class="">Homes Interior</p></a></li>
+      <li name="2"><a href="?action=selectSubcategory&amp;id=2"><p class="">Media Rooms</p></a></li>
+      <li name="3"><a href="?action=selectSubcategory&amp;id=3"><p class="">Commercial</p></a></li>
+      <!-- <li name="1"><p>Homes Interior</p></li>
+      <li name="2"><p>Media Rooms</p></li>
+      <li name="3"><p>Commercial</p></li> -->
     </ul>
   </div>
