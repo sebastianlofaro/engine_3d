@@ -25,6 +25,7 @@ function selectSubcategoryForId() {
 
 function selectJobForId() {
   $jobId = $_GET['job'];
+  $subCatID = Job::jobCategoryForId($jobId);
   $data = JobImages::getJobImages($jobId);
   require(TEMPLATE_PATH . '/detail-level-portfolio.php');
 }

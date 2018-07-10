@@ -4,6 +4,14 @@
   font-family: helvetica;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -112,6 +120,13 @@ nav {
   background-color: white;
   padding: 1px;
   ul {
+    @media (max-width: 465px) {
+        flex-direction: column;
+        li {
+          margin: 0 auto;
+          text-align: center;
+        }
+    }
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -125,8 +140,11 @@ nav {
 }
 
 .section-title {
+  @include desktop {
+    height: 125px;
+  }
   width: 100vw;
-  height: 125px;
+  height: 75px;
   background: url("../../img/textures/dark_wood_@2X.png");
   text-align: center;
   display: flex;
@@ -151,6 +169,7 @@ nav {
   text-align: center;
   color: white;
   margin: 10px auto;
+  width: 100vw;
 }
 
 .sample-image {
@@ -182,8 +201,34 @@ nav {
   }
 
 }
+.dropzone {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  .new-job {
+    border: 7px solid #872B29;
+    background: white;
+    color: #6A6A6A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      font-size: 2em;
+    }
+  }
+  li {
+    margin: 20px;
+    max-width: 500px;
+    div {
+      box-shadow: 1px 6px 18px -2px rgba(0, 0, 0, 0.62);
+    }
+  }
+}
 
 .thumbnails {
+  display: flex;
+  //justify-content: flex-start;
+  width: 100%;
   li {
     margin: 20px;
     max-width: 500px;

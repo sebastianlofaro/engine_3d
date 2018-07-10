@@ -4,6 +4,8 @@ date_default_timezone_set("America/Chicago");
 define("DB_DSN", "mysql:host=localhost;dbname=engine_3d");
 define("DB_USERNAME", "root");
 define("DB_PASSWORD", "root");
+define("ADMIN_USERNAME", "root");
+define("ADMIN_PASSWORD", "root");
 define("CLASS_PATH", "classes");
 define("TEMPLATE_PATH", "templates");
 define("THUMBNAILS_PATH", "img/thumbnail/");

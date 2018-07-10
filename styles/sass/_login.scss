@@ -1,0 +1,64 @@
+.login {
+  background: url("../../img/textures/qbkls.png");
+  background-repeat: repeat;
+  .content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .login-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .login-container {
+    width: 550px;
+    max-width: 90vw;
+    height: 500px;
+    max-height: 90vh;
+    background: white;
+    //border: 5px solid #872B29;
+    text-align: center;
+    box-shadow: 20px 30px 57px -10px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    .bezel-shadow {
+      box-shadow: inset -2px -3px 10px -3px rgba(0,0,0,.55);
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .logo {
+      width: 55%;
+      margin: 0 auto;
+    }
+    .inputs input {
+      padding: 5px;
+      border-radius: 0;
+      border: 1px solid rgba(0,0,0,.1);
+      box-shadow: inset 3px 3px 1px -2px rgba(0,0,0,.55);
+    }
+    .submit-btn {
+      margin: 10px;
+      border: 3px solid #872B29;
+      border-radius: 3px;
+      padding: 5px 25px;
+      background-color: white;
+      color: #6A6A6A;
+      font-weight: bold;
+    }
+    .submit-btn:hover {
+      background-color: #6A6A6A;
+      color: white;
+    }
+  }
+}
